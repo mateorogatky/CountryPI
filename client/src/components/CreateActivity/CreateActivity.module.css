@@ -1,0 +1,119 @@
+.body{
+  background-color:#D8D3DA;
+}
+
+.Genre{
+  background-color: #020024;
+  margin-top: 0px;
+  height: 100%;
+}
+.container{
+  width: 700px;
+  margin: auto;
+  margin-top: 50px;
+}
+.nombres{
+  width: 100px;
+  text-align: left;
+  position: relative;
+}
+
+label{
+  margin: auto;
+  color: red;
+}
+
+.names{
+  display: flex;
+  flex-direction: row;
+}
+
+.form{
+  width: 600px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: left;
+  margin-bottom: 20px;
+}
+
+input[type=text], select, textarea {
+    width: 50%; 
+    padding: 12px; 
+    border: 1px solid #ccc; 
+    border-radius: 4px; 
+    box-sizing: border-box; 
+    margin-top: 6px; 
+    margin-bottom: 16px;
+    resize: vertical 
+  }
+  
+  
+input[type=submit] {
+    background-color: #e5ffdf;
+    color: black;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+  border: 1px solid black;
+    width: 35%;
+    margin-top: 15px;
+  }
+  .btnSubmit{
+    width: 100%;
+    text-align: center;
+  }
+input[type=submit]:hover {
+    background-color: #F4ECF7;
+  }
+  
+.container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+
+  }
+.Btnvolver{
+  background-color: #fb9302;
+  font-size: 15px;
+  border-radius: 6px;
+  transition-duration: 0.4s;
+  width: 15%; 
+  padding: 15px;
+  font-weight: 600;
+  margin-top: 20px;
+}
+
+.mapCountries{
+  display: flex;
+  flex-direction: row;
+  height: 50px;
+}
+
+
+.delete{
+  display: flex;
+  border: 1px solid black;
+  font-size: 10px;
+  cursor: pointer;
+  border-radius: 6px;
+  margin-left: 10px;
+}
+.delete p{
+  font-size: 12px;
+  text-align: center;
+  height: auto;
+  border-radius: 6px;
+}
+.btnDelete{
+  padding: 10px;
+  border-radius: 6px;
+  border: 1px solid black;
+}
+.btn {
+  border-radius: 6px;
+  color: black;
+  background-color: #F4ECF7;
+  font-size: 12px;
+
+}

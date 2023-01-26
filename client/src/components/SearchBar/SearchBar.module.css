@@ -1,0 +1,23 @@
+.main {
+    float: none;
+    display: block;
+    text-align: center;
+    width: 30%;
+    margin: 0 auto;
+    padding: 14px;
+} 
+
+.btn{
+    width: 75px;
+    height: 35px;
+    border: 1px solid black;
+    background: #F4ECF7;
+    text-align: center;
+    border-radius: 6px;
+    cursor: pointer;
+    font-size: 15px;
+    color: black
+}
+.main input{
+    border: 1px solid black;
+}

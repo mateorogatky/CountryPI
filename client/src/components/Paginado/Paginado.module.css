@@ -1,0 +1,18 @@
+ul.paginado {
+    display: inline-block;
+    padding: 0;
+    margin: 0;
+    color: #F4ECF7; 
+    
+}
+
+ul.paginado li {display: inline;}
+
+ul.paginado li a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    border: 1px solid #ddd;
+}
+

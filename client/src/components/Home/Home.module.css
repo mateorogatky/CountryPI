@@ -1,0 +1,143 @@
+.container{
+    display: flex;
+    flex-direction: row;
+    Align-items:Center;
+    
+    width: 33%;
+
+} 
+.card{
+    display: flex;
+    Align-items:Center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    /* Grid-template-rows:repeat(3,35%);
+    Grid-template-columns:repeat(3,33%); */
+    width: 100%;
+    margin-top: 70px;
+        
+    
+}
+
+
+.inicio, .crearAct, .btnGithub, .btnLinkedin{
+    width: 150px;
+
+    margin-top: 5px;
+}
+ .primeroc{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+
+
+.title{
+    Padding-left:10px;
+    Padding-right:10px;
+}
+
+.btnGithub{
+    background-color: #F4ECF7;
+    font-size: 12px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    height: 25px;
+    text-decoration: none;
+    margin-right: 5px;
+}
+.btnLinkedin{
+    background-color: #F4ECF7;
+    font-size: 12px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    height: 25px;
+    text-decoration: none;
+    
+}
+
+.body{
+   /*  background-image: url(../LandingPage/countries.png); */
+    background-color:#D8D3DA;
+    background-position: center;
+    background-repeat: no-repeat; 
+    background-size: cover
+  
+}
+.inicio{
+    background-color: #F4ECF7;
+    font-size: 12px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    height: 25px;
+}
+.inicio:hover {
+    background-color: #F4ECF7; 
+    color: black;
+}
+.crearAct{
+    background-color: #F4ECF7;
+    font-size: 12px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    height: 25px;
+}
+.options{
+    position: relative;
+    font-family: Arial;
+    margin-top: 30px;
+}
+.alfa{
+    background-color: #F4ECF7;
+    font-size: 15px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 14%;
+    text-align: center;
+    
+}
+.continent{
+    background-color: #F4ECF7;
+    font-size: 15px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 14%;
+    text-align: center;
+}
+.continent:hover {
+    background-color: #F4ECF7; 
+    color: black;
+}
+.poblacion{
+    background-color: #F4ECF7;
+    font-size: 15px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 14%;
+    text-align: center;
+}
+.poblacion:hover{
+        background-color: #F4ECF7; 
+        color: black;
+    
+}
+.mapActividades{
+    background-color: #F4ECF7;
+    font-size: 12px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 8%;
+}
+.mapActividades:hover{
+        background-color: #F4ECF7; 
+        color: black;
+    
+}
+.allPaises{
+    background-color: #F4ECF7;
+    font-size: 13px;
+    border-radius: 6px;
+    transition-duration: 0.4s;
+    width: 15%;   
+}
